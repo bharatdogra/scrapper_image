@@ -1,0 +1,14 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M main 
+git remote add origin https://github.com/bharatdogra/scrap_image.git 
+git push -u origin main 
+
+git clone https://github.com/bharatdogra/scrap_image.git
+
+git config --global user.name "bharatdogra"
+git config --global user.email "bharatmdogra@gmail.com"
+
+git remote remove origin 
+git remote add origin https://github.com/bharatdogra/scrapper_image.git
